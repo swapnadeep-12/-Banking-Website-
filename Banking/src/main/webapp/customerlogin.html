@@ -1,0 +1,111 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    color: #007BFF;
+  }
+
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  input[type="text"],
+  input[type="password"] {
+	  width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  button[type="reset"] {
+    background-color: #dc3545;
+  }
+</style>
+
+</head>
+
+<body>
+	<h1 style="text-align: center;">Welcome to customer Login</h1>
+	<form action="customerlogin">
+		CustomerId:<input type="text" name="custid" placeholder="Enter your CustomerID"><br><br>
+		Password:<input type="password" name="password" placeholder="Enter your password"><br><br>
+		<button>Login</button>   <button type="reset">Cancel</button>
+	</form>
+	
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login as Customer</title>
+<link href="customerlogin.css" rel="stylesheet">
+</head>
+<body>
+	
+		<Marquee ><h1 style="color: rgb(0, 0, 160);">Welcome To  Online Bank Services</h1></Marquee>
+
+	<nav  style="position: sticky;position: -webkit-sticky;top: 0; display: flex;padding-top:20px ; justify-content: space-around; height: 70px; background-color: rgb(0, 0, 64);color: white;">
+		
+		<a href="Home.html">		<div>Home</div></a>
+		<a href="#services">		<div>Services</div></a>
+		<a href="">		<div>Users</div></a>
+		<a href="">		<div>About us</div></a>
+	</nav>
+			<h1 style="text-align: center;">Login into Your Account</h1>
+
+	<div style="display: flex; justify-content: space-evenly;">
+		<div id="image" ><img style="height: 410px; width: 400px;" src="https://cdni.iconscout.com/illustration/premium/thumb/app-login-security-4897468-4077880.png"></div>
+<div class="customerlogin">
+	
+	<form action="customerlogin">
+		<h3 style="margin-left: 30%; color: green;">Hey! Welcome Back</h3>
+		<h4 style="margin-left: 30%;">Login To Continue</h4>
+		
+		<div>	<label>Customer Id :</label><input type="text" name="custid" placeholder="enter your customer id"><br><br></div>
+<div><label>Password :</label><input type="password" name="password" placeholder="enter your Password "><br><br></div>
+		<button type="submit">LOGIN</button>    <button type="reset">CANCEL</button>
+
+			<div class="container" style="background-color:#f1f1f1">
+  <span class="signup">New?<a href="customersignup.html">Signup</a></span>  <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+
+</form>
+</div>
+		
+	</div>
+<footer style=" background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;">
+      <p>&copy; 2023 Bank Website. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

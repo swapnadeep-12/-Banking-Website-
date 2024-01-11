@@ -1,0 +1,103 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Welocome to withdraw Page</h1>
+	<form action="withdraw" method="post">
+		
+		Amount:<input type="text" name="amount" placeholder="Enter your amount"><br><br>
+	<button>Withdraw</button>  <button type="reset">cancel</button>
+	</form>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<style>
+		*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+nav a{
+	 text-decoration: none;
+	 color: white;
+	 cursor: pointer;
+}
+nav a:hover{
+	color: hotpink;
+	
+}
+
+button {
+	height: 50px;
+	width: 200px;
+	background: rgb(255, 0, 0);
+	cursor: pointer;
+	color: white;
+	border-radius: 50px;
+}
+
+form{
+	height: 290px;width: 50%; 
+	display: flex;flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+form div{
+	height: 50px;
+	width: 500px;
+}
+input[type=text] {
+  width: 90%;
+    height: 40px;
+font-size: 20px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  	border-radius: 50px;
+
+}
+</style>
+</head>
+<body>
+<Marquee ><h1 style="color: rgb(0, 0, 160);">Welcome To  Online Bank Services</h1></Marquee>
+	<nav  style="position: sticky;position: -webkit-sticky;top: 0; display: flex;padding-top:20px ; justify-content: space-around;background-color: rgb(0, 0, 64);color: white;">
+		
+		<a href="Home.html"><div>Home</div></a>
+		<a href="#services"><div>Services</div></a>
+		<a href=""><div>Users</div></a>
+		<a href=""><div>About us</div></a>
+	</nav>
+	<div style="display: flex; height: 800px;width: 100%;">
+		<div style="width: 50%;"><img style="width: 70%;"  src="https://img.freepik.com/free-vector/atm-machine-concept-illustration_114360-6638.jpg?w=740&t=st=1699126486~exp=1699127086~hmac=29909bba294adcf652a24bb847dd1435f550277e66fea5be96679cf324d9d69e"></div>
+
+<div style="margin:40px auto;height: 300px;width: 50%; background: gray;display: flex;flex-direction: column;align-items: center;justify-content: space-evenly;">
+	<div style="background-color: yellow;width: 100%;"><h1>  Withdrwal Money</h1></div>
+<form action="withdraw" method="post">
+			
+
+	<div>	<input type="text" name="amount" placeholder="enter the amount" required><br><br></div>
+	<div style="display: flex;justify-content: space-evenly;"><button style="background: blue;" type="submit">Withdraw amount</button> <button type="reset">Cancel</button></div>
+</form>
+	</div>
+	</div>
+	
+	<footer style=" background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;">
+      <p>&copy; 2023 Bank Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

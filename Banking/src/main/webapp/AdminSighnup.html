@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 85%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+   button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  button[type="reset"] {
+    background-color: #dc3545;
+  }
+</style>
+</head>
+
+<body>
+
+<form action="adminsighnup" method="post">
+	<h2 style="text-align: center; color: #007BFF;">Admin Sign Up</h2>
+	Admin Name: <input type="text" placeholder="Enter Admin name" name="name">
+	Email: <input type="email" placeholder="enter your email" name="adminemail" ><br><br>
+	Passwor: <input type="password"  placeholder="enter your password" name="password"><br><br>
+	<button>Log In</button><button type="reset">Cancel</button>
+</form>
+</body>
+</html>
